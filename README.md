@@ -1,6 +1,7 @@
 <div align="center">
-<img src="https://github.com/ksmpartners/quarkus-domino-client/blob/integration-tests/src/main/resources/quarkus.svg" width="67" height="70" >
-<img src="https://github.com/ksmpartners/quarkus-domino-client/blob/integration-tests/src/main/resources/plus-sign.svg" height="70" >
+   
+<img src="https://github.com/ksmpartners/quarkus-domino-client/blob/main/integration-tests/src/main/resources/plus-sign.svg" width="67" height="70" >
+<img src="https://github.com/ksmpartners/quarkus-domino-client/blob/main/integration-tests/src/main/resources/plus-sign.svg" height="70" >
 <a href="https://www.dominodatalab.com/" alt="Domino Data Lab">
    <img class="spinner" loading="lazy" height="70" width="116" src="https://www.dominodatalab.com/hubfs/NBM/domino-logo-spinner.webp" alt="Domino Data Logo - Graphic part">
    <img loading="lazy" height="70" src="https://www.dominodatalab.com/hubfs/NBM/domino-logo-text.webp" alt="Domino Data Logo - Text part">
