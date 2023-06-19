@@ -7,20 +7,17 @@
     <packaging>pom</packaging>
     <name>Quarkus Domino Client - Parent</name>
     <description>Quarkus Domino Data Lab API Client to connect to Domino web services using Java HTTP Client.</description>
-	<url>https://github.com/ksmpartners/quarkus-domino-client</url>
+    <url>https://github.com/ksmpartners/quarkus-domino-client</url>
     <modules>
         <module>deployment</module>
         <module>runtime</module>
     </modules>
     <properties>
-        <domino.version>5.5.2</domino.version>
-        <compiler-plugin.version>3.11.0</compiler-plugin.version>
         <maven.compiler.release>11</maven.compiler.release>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <quarkus.version>3.1.2.Final</quarkus.version>
-        <surefire-plugin.version>3.1.2</surefire-plugin.version>
-        <failsafe-plugin.version>${surefire-plugin.version}</failsafe-plugin.version>
+        <domino.version>5.5.2</domino.version>
     </properties>
     <dependencyManagement>
         <dependencies>
@@ -49,7 +46,7 @@
                 </plugin>
                 <plugin>
                     <artifactId>maven-surefire-plugin</artifactId>
-                    <version>${surefire-plugin.version}</version>
+                    <version>3.1.2</version>
                     <configuration>
                         <systemPropertyVariables>
                             <java.util.logging.manager>org.jboss.logmanager.LogManager</java.util.logging.manager>
@@ -60,7 +57,7 @@
                 </plugin>
                 <plugin>
                     <artifactId>maven-failsafe-plugin</artifactId>
-                    <version>${failsafe-plugin.version}</version>
+                    <version>3.1.2</version>
                     <configuration>
                         <systemPropertyVariables>
                             <java.util.logging.manager>org.jboss.logmanager.LogManager</java.util.logging.manager>
@@ -71,7 +68,7 @@
                 </plugin>
                 <plugin>
                     <artifactId>maven-compiler-plugin</artifactId>
-                    <version>${compiler-plugin.version}</version>
+                    <version>3.11.0</version>
                     <configuration>
                         <compilerArgs>
                             <arg>-parameters</arg>
