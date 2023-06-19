@@ -11,7 +11,7 @@
 </div>
 <br>
 
-[![License](https://img.shields.io/github/license/ksmpartners/quarkus-domino-client?style=for-the-badge&logo=mit)](https://opensource.org/licenses/MIT)
+[![License](https://img.shields.io/github/license/ksmpartners/quarkus-domino-client?logo=mit&style=for-the-badge)](https://opensource.org/licenses/MIT)
 [![Maven](https://img.shields.io/maven-central/v/com.ksmpartners/quarkus-domino-client.svg?style=for-the-badge)](https://repo1.maven.org/maven2/com/ksmpartners/quarkus-domino-client/)
 [![Java CI with Maven](https://img.shields.io/github/actions/workflow/status/ksmpartners/quarkus-domino-client/build.yml?branch=main&logo=GitHub&style=for-the-badge)](https://github.com/ksmpartners/quarkus-domino-client/actions/workflows/build.yml)
 [![Quarkus](https://img.shields.io/badge/quarkus-power-blue?logo=quarkus&style=for-the-badge)](https://github.com/quarkusio/quarkus)
