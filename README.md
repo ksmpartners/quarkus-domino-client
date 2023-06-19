@@ -39,7 +39,6 @@ implementation group: 'com.ksmpartners', name: 'quarkus-domino-client', version:
 
 For more information see: [Domino Java Client](https://github.com/ksmpartners/domino-java-client)
 
-## Developing
 # Release
 
 - Run `mvn versions:set -DgenerateBackupPoms=false -DnewVersion=5.5.1` to update all modules versions
