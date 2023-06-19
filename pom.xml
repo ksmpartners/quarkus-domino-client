@@ -19,6 +19,44 @@
         <quarkus.version>3.1.2.Final</quarkus.version>
         <domino.version>5.5.2</domino.version>
     </properties>
+    <licenses>
+        <license>
+            <name>MIT License</name>
+            <url>https://opensource.org/licenses/mit-license.php</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+    <issueManagement>
+        <system>GitHub</system>
+        <url>https://github.com/ksmpartners/domino-java-client/issues</url>
+    </issueManagement>
+    <scm>
+        <connection>scm:git:https://github.com/ksmpartners/domino-java-client.git</connection>
+        <developerConnection>scm:git:https://github.com/ksmpartners/domino-java-client.git</developerConnection>
+        <url>https://github.com/ksmpartners/domino-java-client</url>
+        <tag>HEAD</tag>
+    </scm>
+    <developers>
+        <developer>
+            <id>melloware</id>
+            <name>Emil Lefkof</name>
+            <email>elefkof@ksmpartners.com</email>
+            <roles>
+                <role>Buildmaster</role>
+                <role>Developer</role>
+            </roles>
+            <timezone>America/New_York</timezone>
+        </developer>
+        <developer>
+            <id>mharnish</id>
+            <name>Mike Harnish</name>
+            <email>mharnish@ksmpartners.com</email>
+            <roles>
+                <role>Developer</role>
+            </roles>
+            <timezone>America/New_York</timezone>
+        </developer>
+    </developers>
     <dependencyManagement>
         <dependencies>
             <dependency>
