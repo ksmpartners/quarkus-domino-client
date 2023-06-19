@@ -1,0 +1,12 @@
+name: Domino
+description: Domino Data Lab API Client to connect to Domino web services using Java HTTP Client.
+metadata:
+  short-name: "domino" 
+  keywords:
+   - domino
+   - kubernetes
+   - ml
+  categories:
+   - "miscellaneous"
+  status: "stable"
+  icon-url: "https://www.dominodatalab.com/hubfs/NBM/domino-logo-spinner.webp"
