@@ -5,7 +5,7 @@
   <parent>
     <groupId>com.ksmpartners</groupId>
     <artifactId>quarkus-domino-client-parent</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>5.5.1</version>
   </parent>
   <artifactId>quarkus-domino-client-deployment</artifactId>
   <name>Quarkus Domino Client - Deployment</name>
