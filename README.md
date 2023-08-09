@@ -1,12 +1,4 @@
 <div align="center">
-
-<img src="https://github.com/ksmpartners/quarkus-domino-client/blob/main/integration-tests/src/main/resources/quarkus.svg" height="70" width="67">
-<img src="https://github.com/ksmpartners/quarkus-domino-client/blob/main/integration-tests/src/main/resources/plus-sign.svg" height="70" >
-<a href="https://www.dominodatalab.com/" alt="Domino Data Lab">
-   <img class="spinner" loading="lazy" height="70" width="116" src="https://www.dominodatalab.com/hubfs/NBM/domino-logo-spinner.webp" alt="Domino Data Logo - Graphic part">
-   <img loading="lazy" height="70" src="https://www.dominodatalab.com/hubfs/NBM/domino-logo-text.webp" alt="Domino Data Logo - Text part">
-</a>
-
 # Quarkus Domino Data Lab Client
 </div>
 <br>
