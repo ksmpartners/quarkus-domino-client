@@ -1,7 +1,4 @@
-<div align="center">
 # Quarkus Domino Data Lab Client
-</div>
-<br>
 
 [![Maven](https://img.shields.io/maven-central/v/com.ksmpartners/quarkus-domino-client.svg?style=for-the-badge)](https://repo1.maven.org/maven2/com/ksmpartners/quarkus-domino-client/)
 [![License](https://img.shields.io/github/license/ksmpartners/quarkus-domino-client?logo=mit&style=for-the-badge)](https://opensource.org/licenses/MIT)
