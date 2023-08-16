@@ -17,7 +17,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <quarkus.version>3.3.0</quarkus.version>
-        <domino.version>5.5.2</domino.version>
+        <domino.version>5.7.0</domino.version>
     </properties>
     <licenses>
         <license>
