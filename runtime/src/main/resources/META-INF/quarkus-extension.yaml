@@ -6,6 +6,7 @@ metadata:
    - domino
    - kubernetes
    - ml
+   - cloud
   categories:
    - "miscellaneous"
   status: "stable"
