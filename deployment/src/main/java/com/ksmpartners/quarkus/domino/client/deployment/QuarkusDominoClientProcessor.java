@@ -26,7 +26,6 @@ class QuarkusDominoClientProcessor {
     @BuildStep
     void indexTransitiveDependencies(BuildProducer<IndexDependencyBuildItem> index) {
         index.produce(new IndexDependencyBuildItem("com.ksmpartners", "domino-java-client"));
-        index.produce(new IndexDependencyBuildItem("org.openapitools", "jackson-databind-nullable"));
         index.produce(new IndexDependencyBuildItem("org.apache.httpcomponents", "httpmime"));
     }
 
