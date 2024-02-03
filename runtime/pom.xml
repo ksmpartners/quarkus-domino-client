@@ -5,7 +5,7 @@
   <parent>
     <groupId>com.ksmpartners</groupId>
     <artifactId>quarkus-domino-client-parent</artifactId>
-    <version>5.7.2</version>
+    <version>5.9.1.0</version>
   </parent>
   <artifactId>quarkus-domino-client</artifactId>
   <name>Quarkus Domino Client - Runtime</name>
@@ -39,6 +39,7 @@
         </executions>
       </plugin>
       <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
         <configuration>
           <annotationProcessorPaths>
