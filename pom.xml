@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.ksmpartners</groupId>
     <artifactId>quarkus-domino-client-parent</artifactId>
-    <version>5.11.1</version>
+    <version>5.11.1.6</version>
     <packaging>pom</packaging>
     <name>Quarkus Domino Client - Parent</name>
     <description>Quarkus Domino Data Lab API Client to connect to Domino web services using Java HTTP Client.
