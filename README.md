@@ -35,12 +35,7 @@ For more information see: [Domino Java Client](https://github.com/ksmpartners/do
 
 # Release
 
-- Run `mvn versions:set -DgenerateBackupPoms=false -DnewVersion=5.5.1` to update all modules versions
-- Commit and push the changes to GitHub
-- In GitHub create a new release titled `5.5.1` to tag this release
-- Run `mvn clean deploy -Prelease` to push to Maven Central
-
-(Replace `5.5.1` in the steps above with the actual SEMVER release number.)
+Run in `GitHub Actions` the `Release` workflow and enter version number and next SNAPSHOT number.
 
 # License
 
