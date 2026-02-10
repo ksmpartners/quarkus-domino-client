@@ -34,6 +34,8 @@ class QuarkusDominoClientProcessor {
         // All Model Objects
         final List<String> classNames = new ArrayList<>();
         classNames.addAll(collectClassesInPackage(combinedIndex, "com.dominodatalab.api.model"));
+        classNames.addAll(collectClassesInPackage(combinedIndex, "com.dominodatalab.gov.model"));
+        classNames.addAll(collectClassesInPackage(combinedIndex, "com.dominodatalab.netapp.model"));
         classNames.addAll(collectClassesInPackage(combinedIndex, "com.dominodatalab.pub.model"));
 
         reflectiveClass.produce(ReflectiveClassBuildItem.builder(classNames.toArray(new String[0])).methods(true).build());
